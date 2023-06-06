@@ -25,5 +25,5 @@ def chinese_remainder_theorem(n, a):
     for i in range(len(n)):
         x += a[i] * Ni[i] * mi[i]
     
-    # Reduce x modulo N to get the smallest positive integer that satisfies all the congruences.
+    # Reduce x modulo N to get the smallest positive integer that satisfies all  congruences.
     return x % N
