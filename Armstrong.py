@@ -12,6 +12,6 @@ def is_armstrong_number(num):
 num = int(input("Enter a positive integer: "))
 
 if is_armstrong_number(num):
-    print(num, "is an Armstrong number.")
+    print(num, "number is an Armstrong number.")
 else:
-    print(num, "is not an Armstrong number.")
+    print(num, "number is not an Armstrong number.")
