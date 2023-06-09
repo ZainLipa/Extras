@@ -14,4 +14,4 @@ numbers = [int(num) for num in number_list]
 # Calculate the average of the numbers
 average = calculate_average(numbers)
 
-print("Average:", average)
+print("Average :", average)
