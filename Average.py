@@ -5,7 +5,7 @@ def calculate_average(numbers):
     average = total / len(numbers)
     return average
 
-# Prompt the user to enter a list of numbers separated by spaces
+# Prompt the user to enter list of numbers separated by spaces
 number_list = input("Enter a list of numbers separated by spaces: ").split()
 
 # Convert the input numbers to integers
