@@ -1,3 +1,4 @@
+#program of the day: LAPLACE
 def determinant(matrix):
     n = len(matrix)
     if n == 1:
