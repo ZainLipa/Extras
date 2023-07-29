@@ -1,3 +1,4 @@
+#Program of the day vowel counter
 def count_vowels(string):
     vowels = "aeiouAEIOU"
     count = 0
