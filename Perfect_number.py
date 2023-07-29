@@ -1,3 +1,5 @@
+#Program of the day, is perfect number
+
 def is_perfect_number(num):
     if num <= 0:
         return False
