@@ -1,5 +1,5 @@
 def is_armstrong_number(num):
-    # Calculate the number of digits in number
+    #Calculate the number of digits in number
     num_str = str(num)
     num_digits = len(num_str)
      
