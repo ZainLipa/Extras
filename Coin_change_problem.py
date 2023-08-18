@@ -1,5 +1,4 @@
 # Program of the Day: Coin Change Problem (Dynamic Programming)
-
 def coin_change(coins, amount):
     dp = [float('inf')] * (amount + 1)
     dp[0] = 0
