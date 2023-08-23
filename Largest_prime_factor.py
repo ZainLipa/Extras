@@ -1,3 +1,4 @@
+#Program of the day Largest Prime Factor 
 def largest_prime_factor(number):
     factor = 2
     while factor * factor <= number:
