@@ -1,4 +1,4 @@
-# Program of the Day: Knapsack Problem (Dynamic Programming)
+#Program of the Day: Knapsack Problem (Dynamic Programming)
 
 def knapsack_problem(weights, values, capacity):
     n = len(weights)
