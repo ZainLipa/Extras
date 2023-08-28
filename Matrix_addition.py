@@ -1,4 +1,4 @@
-#progeam of the day - matrix addition
+#program of the day - matrix addition
 def matrix_addition(matrix1, matrix2):
     result = []
     for i in range(len(matrix1)):
