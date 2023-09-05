@@ -1,5 +1,4 @@
 # Program of the Day: Monte Carlo Simulation for Pi Calculation
-
 import random
 
 def monte_carlo_pi(num_points):
