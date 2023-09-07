@@ -1,0 +1,37 @@
+# Program of the Day: English Grammar Checker
+
+import nltk
+from nltk import CFG, ChartParser
+
+def is_grammatically_correct(sentence):
+    # Define a context-free grammar for simple English sentences
+    grammar = CFG.fromstring("""
+        S -> NP VP
+        NP -> Det N | Det N PP
+        VP -> V NP | V NP PP
+        PP -> P NP
+        Det -> 'the' | 'a'
+        N -> 'cat' | 'dog' | 'bird'
+        V -> 'chased' | 'ate'
+        P -> 'in' | 'on' | 'with'
+    """)
+
+    parser = ChartParser(grammar)
+    words = nltk.word_tokenize(sentence)
+
+    try:
+        for tree in parser.parse(words):
+            # If a valid parse tree is found, the sentence is grammatically correct
+            return True
+    except ValueError:
+        pass
+
+    # If no valid parse tree is found, the sentence is not grammatically correct
+    return False
+
+# Example usage
+sentence = "The cat chased the dog in the park."
+if is_grammatically_correct(sentence):
+    print("The sentence is grammatically correct.")
+else:
+    print("The sentence is not grammatically correct.")
