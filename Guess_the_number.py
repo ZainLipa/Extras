@@ -1,4 +1,4 @@
-#Program of the day, guess the number
+#Program of the day guess the number
 import random
 
 number = random.randint(1, 100)
