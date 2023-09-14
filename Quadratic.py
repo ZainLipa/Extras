@@ -1,7 +1,7 @@
 import cmath
 
 def quadratic_roots(a, b, c):
-    # calculate the discriminant
+    # calculate the discriminant 
     d = (b**2) - (4*a*c)
 
     # calculate the roots
