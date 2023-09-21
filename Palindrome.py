@@ -1,3 +1,4 @@
+#Program of the day: Is Palindrome
 def is_palindrome(string):
     # Remove whitespace and convert to lowercase
     string = string.replace(" ", "").lower()
