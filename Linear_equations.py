@@ -1,3 +1,4 @@
+# Program of the day Linear Equations
 import numpy as np
 
 def solve_linear_equations(coefficients, constants):
