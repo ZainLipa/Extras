@@ -1,3 +1,4 @@
+#Program of the day, Prime number 
 def is_prime(n):
     if n <= 1:
         return False
