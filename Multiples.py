@@ -1,3 +1,4 @@
+#POTD multiples
 def calculate_multiples_sum(n):
     total = 0
     for i in range(n):
