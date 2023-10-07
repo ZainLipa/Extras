@@ -1,4 +1,4 @@
-# Program of the Day: Newton's Method for Finding Square Roots
+# Program of the Day:Newton's Method for Finding Square Roots
 
 def newton_square_root(n, tolerance=0.0001):
     guess = n / 2
