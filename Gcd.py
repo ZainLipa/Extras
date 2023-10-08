@@ -1,4 +1,4 @@
-#Program of the day, GCD
+#Program of the day GCD
 def gcd(a, b):
     """
     Calculates the greatest common divisor (gcd) of two integers using the Euclidean algorithm.
