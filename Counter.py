@@ -1,3 +1,4 @@
+#POTD counter
 string = input("Enter a string: ")
 
 char_count = {}
