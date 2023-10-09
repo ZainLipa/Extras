@@ -1,4 +1,4 @@
-#POTD counter
+#Program of the day counter
 string = input("Enter a string: ")
 
 char_count = {}
