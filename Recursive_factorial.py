@@ -1,3 +1,4 @@
+#Program of the day: Recursive Factorial
 def factorial(n):
     if n == 0:
         return 1
