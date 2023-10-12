@@ -1,3 +1,4 @@
+#POTD power calculator
 def calculate_power(base, exponent):
     result = 1
     for _ in range(exponent):
