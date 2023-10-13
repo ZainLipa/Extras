@@ -1,3 +1,4 @@
+#Potd integral
 from scipy.integrate import quad
 
 # Define the function to be integrated
