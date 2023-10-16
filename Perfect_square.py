@@ -1,3 +1,4 @@
+#Perfect Square
 def is_perfect_square(num):
     square_root = int(num ** 0.5)
     return square_root * square_root == num
