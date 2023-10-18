@@ -1,3 +1,4 @@
+#potd dot product
 def dot_product(vector1, vector2):
     if len(vector1) != len(vector2):
         return None
