@@ -1,4 +1,4 @@
-# Program of the Day: Text-Based Adventure Game
+#Program of the Day: Text-Based Adventure Game
 def start_game():
     print("Welcome to the Text-Based Adventure Game!")
     print("You find yourself in a mysterious forest. You can go north or south.")
