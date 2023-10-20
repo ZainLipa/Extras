@@ -1,4 +1,4 @@
-#Program of the day, Armstrong
+# Program of the day, Armstrong
 def is_armstrong_number(num):
     #Calculate the number of digits in number
     num_str = str(num)
