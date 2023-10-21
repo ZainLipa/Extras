@@ -1,5 +1,4 @@
 # Program of the Day: Dijkstra's Algorithm
-
 import heapq
 
 def dijkstra(graph, start):
