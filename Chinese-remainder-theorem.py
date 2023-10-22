@@ -1,3 +1,4 @@
+#POTD chinese remainder
 def chinese_remainder_theorem(n, a):
     """
     Solve a system of linear congruences using the Chinese remainder theorem.
