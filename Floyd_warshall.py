@@ -1,5 +1,4 @@
 #Program of the Day: Floyd-Warshall Algorithm
-
 INF = float('inf')
 
 def floyd_warshall(graph):
