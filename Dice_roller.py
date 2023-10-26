@@ -1,5 +1,4 @@
 # Program of the Day: Dice Roller
-
 import random
 
 def roll_dice(num_dice, num_sides):
