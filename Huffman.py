@@ -1,4 +1,4 @@
-# Program of the Day: Huffman Coding
+#Program of the Day: Huffman Coding
 
 import heapq
 from collections import defaultdict, Counter
