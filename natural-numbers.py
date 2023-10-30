@@ -1,3 +1,4 @@
+#POTD Natural Numbers
 n = int(input("Enter a positive integer: "))
 
 sum = 0
