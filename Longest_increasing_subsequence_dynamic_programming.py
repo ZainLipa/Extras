@@ -1,5 +1,4 @@
 # Program of the Day: Longest Increasing Subsequence (Dynamic Programming)
-
 def longest_increasing_subsequence(nums):
     if not nums:
         return 0
