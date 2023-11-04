@@ -1,5 +1,4 @@
 # Program of the Day: Merge Sort Algorithm
-
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr
