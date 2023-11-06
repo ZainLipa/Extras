@@ -1,3 +1,4 @@
+#POTD Binarry to Decimal
 def binary_to_decimal(binary):
     decimal = 0
     power = 0
