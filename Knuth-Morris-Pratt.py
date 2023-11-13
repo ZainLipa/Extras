@@ -1,4 +1,4 @@
-# Program of the Day:  (KMP) Algorithm for Pattern Matching
+# Program of the Day: (KMP) Algorithm for Pattern Matching
 
 def build_lps_array(pattern):
     n = len(pattern)
