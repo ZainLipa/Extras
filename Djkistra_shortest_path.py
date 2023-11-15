@@ -1,5 +1,4 @@
 # Program of the Day: Dijkstra's Algorithm (Shortest Path)
-
 import heapq
 
 def dijkstra(graph, start):
