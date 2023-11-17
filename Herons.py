@@ -1,6 +1,5 @@
 #Program of the day Herons
 import math
-
 def calculate_triangle_area(a, b, c):
     # Calculate the semi-perimeter
     s = (a + b + c) / 2
