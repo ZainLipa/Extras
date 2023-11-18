@@ -1,5 +1,4 @@
 # Program of the Day: RSA Encryption and Decryption
-
 def gcd(a, b):
     while b:
         a, b = b, a % b
