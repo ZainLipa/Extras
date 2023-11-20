@@ -1,5 +1,4 @@
 #Program of the Day: Huffman Coding
-
 import heapq
 from collections import Counter
 
