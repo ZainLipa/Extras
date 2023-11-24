@@ -1,6 +1,5 @@
 #Program of the day guess the number
 import random
-
 number = random.randint(1, 100)
 
 print("I'm thinking of a number between 1 and 100. Can you guess what it is?")
