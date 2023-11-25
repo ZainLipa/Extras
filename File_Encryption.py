@@ -1,5 +1,4 @@
 # Program of the Day: File Encryption and Decryption
-
 def encrypt(text, key):
     encrypted_text = ""
     for char in text:
