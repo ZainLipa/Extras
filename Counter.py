@@ -1,6 +1,5 @@
 #Program of the day counter
 string = input("Enter a string: ")
-
 char_count = {}
 for char in string:
     if char in char_count:
