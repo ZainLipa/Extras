@@ -1,5 +1,4 @@
 # Program of the Day: Boyer-Moore Majority Vote Algorithm
-
 def majority_element(nums):
     candidate = None
     count = 0
